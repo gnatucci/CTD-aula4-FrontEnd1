@@ -1,0 +1,97 @@
+<!-- Versão do HTML 5 -->
+<!DOCTYPE html>
+<!-- Definição do idioma do documento -->
+<html lang="pt-br">
+<!-- cabeçalho -->
+<head>
+<!-- Configurações do documento -->
+        
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- SEO da página -->
+    <title>Aula 4: Estrutura semântica HTML 5 </title>
+</head>
+<!-- Conteúdo -->
+<body>
+
+    <!-- 1. Título / 2. Texto / 3. Estilização -->
+    <h1>Título 1</h1>
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</h4>
+    <h5>Título 5</h5>
+    <h6>Título 6</h6>
+
+    <p>Bloco de <strong>texto</strong> <em>Parágrafo</em></p>
+
+    <!--  4. Estrutura anônima ou genérica -->
+    <div>
+        <h1>Título 1</h1>
+        <p>Bloco de <strong>texto</strong> <em>Parágrafo</em></p>
+    </div>
+
+    <div>
+    <!--  5. Estrutura de seção -->
+        <section>
+            <!-- Título é obrigatório -->
+            <h1>Título Principal</h1>
+            <!-- O texto é opcional -->
+            <p>Bloco de texto parágrafo</p>
+        </section>
+    </div>
+    
+
+        <div>
+            <section>
+                <h1>Título Principal</h1>
+            </section>
+
+            <section>
+                <h2>Título Secundário</h2>
+                <p>Bloco de texto.</p>
+            </section>
+        </div>
+
+        <div>
+            <!-- 6. Estrutura de artigo -->
+            <!-- É responsável por definir o conteúdo do documento. -->
+                <article>
+                    <h1>Título Principal</h1>
+                    <p>Bloco de texto.</p>
+                </article>
+        </div>
+
+        <!-- 7. Estrutura Principal -->
+        <!-- Resumo da página conteúdo principal do coumento -->
+        <main>
+            <p>Hoje falaremos como fazer um bolo de chocolate com calda</p>
+        </main>
+
+        <!-- 8. Estrutura de conteúdo relacionado -->
+        <aside>
+            Não se esqueça de utilizar uma forma anti-aderente.
+        </aside>
+
+        <aside>
+            <a href=""> Bolo de cenoura</a>
+            <a href="">Bolo de Coco</a>
+            ...
+        </aside>
+
+        <nav>
+            <a href="/index.html" target="_blank">Home</a>
+            <a href="/sobre" target="_blank">sobre</a>
+        </nav>
+        
+        <!-- 
+            1. Main - O que deve ser destaque
+            2. article - Conteúdo do documento
+            3. aside - Conteúdo associado ao conteúdo do documento
+            4. section
+            5. Div
+
+            0.nav
+         -->
+</body>
+</html>
